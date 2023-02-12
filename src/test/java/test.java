@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Test;
 import ru.netology.stats.StatsService;
 
 public class test {
-    public static class SalesAmountTest {
         @Test
         public void shouldCalculateTheAmount() {
             StatsService service = new StatsService();
@@ -60,4 +59,3 @@ public class test {
             Assertions.assertEquals(expected, actual);
         }
     }
-}
