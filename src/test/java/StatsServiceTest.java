@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.stats.StatsService;
 
-public class test {
+public class StatsServiceTest {
         @Test
         public void shouldCalculateTheAmount() {
             StatsService service = new StatsService();
